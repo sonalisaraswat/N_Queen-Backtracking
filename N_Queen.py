@@ -28,24 +28,6 @@ def isSafe(arr,row,col):
             return False
         r_m -= 1
         c_p += 1
-        
-    #checking lower left
-    r_p = row+1
-    c_m = col-1
-    while r_p<N and c_m>=0:
-        if arr[r_p][c_m] == 'Q':
-            return False
-        r_p += 1
-        c_m -= 1
-        
-    #checking lower right
-    r_p = row+1
-    c_p = col+1
-    while r_p<N and c_p<N:
-        if arr[r_p][c_p] == 'Q':
-            return False
-        r_p += 1
-        c_p += 1
 
     return True
 
