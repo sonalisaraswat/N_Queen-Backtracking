@@ -49,6 +49,7 @@ x x x x Q x
 
 
 7
+                                      <BR>
 Q x x x x x x
                                       <BR>
 x x Q x x x x
