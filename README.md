@@ -3,7 +3,7 @@ N_Queens problem using Python.
 
 
 Output:
-4
+4<BR>
 x Q x x
 x x x Q
 Q x x x
