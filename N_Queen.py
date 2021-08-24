@@ -2,7 +2,7 @@ N = int(input())
 arr = []
 
 for i in range (N):
-    arr_t= list('.'*N)
+    arr_t= list('x'*N)
     arr.append(arr_t)
 
 def isSafe(arr,row,col):
@@ -57,12 +57,11 @@ def N_Queen(arr,row):
             arr[row][C] = 'Q'
             if (N_Queen(arr,row+1)):
                 return True
-            arr[row][C] = '.'
+            arr[row][C] = 'x'
     return False
 
 if (N_Queen(arr,0)):
-    print(N)
     for row in arr:
-        print(''.join(row))
+        print(' '.join(row))
 else:
     print("Not Posssible")
